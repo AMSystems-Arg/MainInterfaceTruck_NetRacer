@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ar.com.amsystems.Telemetry.Server.Controllers.Ets2AppController" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAADAsA8AAAgAAAABAAAAEAAAAAA=</HashCode>
+      <FileName>Controllers\Ets2AppController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Controllers.Ets2TelemetryController" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAIAAAAAAAAEAABAAAAAAAACAA=</HashCode>
+      <FileName>Controllers\Ets2TelemetryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Controllers.Ets2TelemetryHub" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAQAIAAAAAAAAAAAAAAAAAAEAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Ets2TelemetryHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Controllers.StaticFileController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACAABA=</HashCode>
+      <FileName>Controllers\StaticFileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2TelemetryData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAEAAAAAAAAADAAAAAAgCIAAAAgAAAAAAQAA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAQAAAABAAAAAAwAAAIAAAAAAgAAAAAQA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Vector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Placement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAACAAYAE=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Truck" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lAIKQBEMJwiLAahABRAAIgyRELeBKLCEWkmFMAIABSU=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Trailer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAEAAwAAAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Navigation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAAAAAAAAAAAAAAAIACAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2Job" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACBAAAIAAACAAAAACIAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Box&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Ets2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Ets2TelemetryDataReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAABgAAIAAAAgAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Data\Ets2TelemetryDataReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Data.Reader.SharedProcessMemory&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAABAAAAAAAAgAIAAAFAAAAEAAAAAAAA=</HashCode>
+      <FileName>Data\Reader\SharedProcessMemory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.AssemblyHelper" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\AssemblyHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.Ets2ProcessHelper" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAgAAAAAAAABAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Ets2ProcessHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.ExceptionExtensions" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ExceptionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.JsonHelper" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Helpers\JsonHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.KeyboardHelper" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAAAAAAAIAAAAAAQAAgAAAABAAAAAIBAAgAA=</HashCode>
+      <FileName>Helpers\KeyboardHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.MIT_NetRacer_Config">
+    <Position X="8.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAhAAACAAEAAQAgAAQAEAAAAAAAAIAAIAAAABAIIA=</HashCode>
+      <FileName>Helpers\MIT_NetRacer_Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.NetworkHelper" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\NetworkHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.NetworkInterfaceInfo" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Helpers\NetworkHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.ProcessHelper" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAABAAAAAAAAAAAAAAAQgAAAABAAAAACAAAAA=</HashCode>
+      <FileName>Helpers\ProcessHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.Uac" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.SafeTokenHandle" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Helpers.NativeMethods" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgABAABAAAAAAgDABAZBACIKQBAAAAEwDAQAEAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Setup.FirewallSetup" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAgAgEAAAAAAAAAAAAg=</HashCode>
+      <FileName>Instalacion\FirewallSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Setup.Instalador" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instalacion\SetupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Setup.SetupPlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIAAAAAAAAAAAAAAAAIgAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Instalacion\SetupPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Setup.UrlReservationSetup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Instalacion\UrlReservationSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Interfaz_Main" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Interfaz_Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.MainForm">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CSYkFQgDCCAAAAAASEDLGACCAggIgAABLmASgABBJEg=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Program" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgABAAAAAAAAAAAAAACAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.SetupForm" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAUACCCIAAAAAAACAAAACABgAEBgAACIwAAAAAAA=</HashCode>
+      <FileName>SetupForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Startup" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Properties.Resources" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAEBEAAAAQAAABAQAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ar.com.amsystems.Telemetry.Server.Properties.Settings" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ar.com.amsystems.Telemetry.Server.Data.Reader.Ets2TelemetryStructure" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BYRtsFG6qpKRAgZC2MedcJIyDNYGydEsBeDR0YhiJhg=</HashCode>
+      <FileName>Data\Reader\Ets2TelemetryStructure.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ar.com.amsystems.Telemetry.Server.Helpers.SID_AND_ATTRIBUTES" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ar.com.amsystems.Telemetry.Server.Helpers.TOKEN_ELEVATION" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ar.com.amsystems.Telemetry.Server.Helpers.TOKEN_MANDATORY_LABEL" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2TelemetryData" Collapsed="true">
+    <Position X="10" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAACAAAAAAgCAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Game" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAQAAAABAAAAAAwAAAAAAAAAAgAAAAAQA=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Vector" Collapsed="true">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Placement" Collapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAACAAYAE=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Truck" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lAIKQBEMJwiLAahABRAAIgyRELeBCLCEWkmFMAIABSU=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Navigation" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Job" Collapsed="true">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACBAAAIAAACAAAAACAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Data.IEts2Trailer" Collapsed="true">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAEAAwAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Data\IEts2TelemetryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ar.com.amsystems.Telemetry.Server.Setup.ISetup" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Instalacion\ISetup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ar.com.amsystems.Telemetry.Server.Helpers.TOKEN_INFORMATION_CLASS" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIEBAICCAAQEEBBCEIAQAAgACAgAAOiAIABAAAhA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ar.com.amsystems.Telemetry.Server.Helpers.WELL_KNOWN_SID_TYPE" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhPULQLgCJARIRANgmApqCSAAIVsAMGABoCEUCYS+Rg=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ar.com.amsystems.Telemetry.Server.Helpers.SECURITY_IMPERSONATION_LEVEL" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ar.com.amsystems.Telemetry.Server.Helpers.TOKEN_ELEVATION_TYPE" Collapsed="true">
+    <Position X="6.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Helpers\Win32Uac.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ar.com.amsystems.Telemetry.Server.Setup.SetupStatus" Collapsed="true">
+    <Position X="4.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>Instalacion\SetupStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
